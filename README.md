@@ -1,7 +1,7 @@
 # AzurePowershell
 ##Copy file from Blob storage to Azure data lake store 
 
-Function Global:Copy-BlobToAdlsWH($SourceFilePath,$DestinationFilePath){
+Function Global:Copy-BlobToAdls($SourceFilePath,$DestinationFilePath){
 
     #Downloading the Blob File
     $FileDownloadPath = 'FILE_DOWNLOAD_PATH'
